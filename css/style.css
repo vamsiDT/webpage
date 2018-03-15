@@ -117,7 +117,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/1.jpeg) no-repeat 0px 0px;
+	background: url(../images/d.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -350,7 +350,7 @@ a.w3_agile_vimeo:hover{
     line-height: 1.1em;
     text-transform: uppercase;
     font-weight: 900;
-    text-shadow: 3px 3px #146eb4;
+    text-shadow: 3px 3px #000000 ; /*#146eb4*/
 }
 .w3_banner_info_grid  h5 {
     font-size: 20px;
@@ -1742,7 +1742,7 @@ iframe {
 		margin: 7em 0 4em;
 	}
 	.banner {
-		background: url(../images/1.jpeg) no-repeat -182px 0px;
+		background: url(../images/d.jpg) no-repeat -182px 0px;
 		background-size: cover;
 	}
 }
