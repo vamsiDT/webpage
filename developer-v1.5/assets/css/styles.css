@@ -8,7 +8,7 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: "Raleway";
+  font-family: "Times New Roman";
   color: #434343;
   background: #DAE3E7;
   font-size: 16px;
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway";
+  font-family: "Times New Roman";
   font-weight: 700;
   color: #778492;
 }
@@ -46,7 +46,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  font-family: "Raleway";
+  font-family: "Times New Roman";
   padding: 8px 16px;
   font-weight: bold;
 }
@@ -122,6 +122,14 @@ iframe {
 }
 .section {
   margin-bottom: 30px;
+
+}
+.offset:before { /*for fixed navigation bar on top */
+  display: block; 
+  content: " "; 
+    height: 40px;      /* Give height of your fixed element */
+        margin-top: -40px; /* Give negative margin of your fixed element */    
+        visibility: hidden; 
 }
 .section .section-inner {
   background: #fff;
@@ -648,7 +656,7 @@ iframe {
   display: block;
   font-size: 13px;
   font-weight: 600;
-  font-family: Hind, sans-serif;
+  font-family: "Times New Roman";
   color: #515769;
   text-transform: uppercase;
   line-height: 55px;
