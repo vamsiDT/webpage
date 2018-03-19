@@ -807,11 +807,6 @@ iframe {
     background-size: cover;
 }
 
-#headerwrap h1 {
-  font-size: 80px;
-  color: white;
-        text-shadow: 1px 1px 2px black;
-}
 
 #headerwrap h3 {
   font-size: 20px;
