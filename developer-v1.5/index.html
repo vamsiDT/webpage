@@ -24,7 +24,7 @@
     <!-- github acitivity css -->
     <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    
+
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,12 +35,52 @@
     
 </head> 
 
-<body>
+<body data-spy="scroll" data-offset="0" data-target="#nav" id="top">
+<!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#top">
+                                <img class="logo-img" src="assets/images/f.jpg" border-radius=50% alt="profile">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+
+                    </div>
+
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#top">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Work</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#resume">Education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#proj">Project</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
     <!-- ******HEADER****** --> 
-    <header class="header">
+    <div id="headerwrap">
         <div class="container">                       
-            <img class="profile img-circle img-responsive pull-left" src="assets/images/f.jpg" alt="Vamsi Krishna" />
-            <div class="profile-content pull-left">
+            <!-- <img class="profile img-circle img-responsive pull-left" src="assets/images/f.jpg" alt="Vamsi Krishna" /> -->
+            <div class="profile-content pull-center">
                 <h1 class="name">Addanki Vamsi Krishna</h1>
                 <h2 class="desc">Computer Networks Research Engineer</h2>   
                 <ul class="social list-inline">
@@ -50,10 +90,10 @@
                     <li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  
                     <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
                 </ul> 
-            </div><!--//profile-->
+            </div> <!--//profile-->
             <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
-    </header><!--//header-->
+    </div><!--//header-->
 
     
     <div class="container sections-wrapper">
@@ -70,7 +110,7 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
-
+                
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
@@ -403,7 +443,8 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>  
+        
 </body>
 </html> 
 
